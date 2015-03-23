@@ -1,0 +1,144 @@
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+
+<style type="text/css" scoped>
+html { overflow-y: scroll; }
+ 
+br { display: block; line-height: 1.6em; } 
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+ 
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+ 
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+ 
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+ 
+  /** page structure **/
+  .body {
+  	font-family: "Helvetica";
+  }
+  
+#wrapper {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ 
+#photo {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#main-sidebar{
+display:none;
+}
+#photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  border: 5px solid #fff;
+  box-shadow: 2px 0 7px #aaa;
+}
+ .media{
+display:none;
+}
+.info-box{
+display:none;
+}
+.half hairline{
+display:none;
+}
+.bigtext {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+ hr {
+display:none;
+}
+/*.expand, .contract {
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px 0;
+  text-align: left;
+  color: #555;
+}
+.expand:hover, .contract:hover {
+  color: #121212;
+}
+ 
+.hide {
+  display: none;
+}
+.unit{
+float:left;
+}
+.half-hairline{
+display:none;
+}
+.double hairline{
+display:none;
+}
+.well{
+display:none;
+}*/
+
+.more {
+      display: none;
+      /*border-top: 1px solid #666;
+      border-bottom: 1px solid #666;*/ }
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      color: #000000;
+      padding-left: 8px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      /*border-bottom: 1px dotted #36f*/; }
+
+  </style></div>
+<div class="span13"><div class="span5"><p id="photo">
+	<img src="https://s3.amazonaws.com/media.cav/8486_herringf.jpg" alt="Mark Herring" /></p><p><strong>
+	FROM: Attorney General Mark R. Herring</p><p>
+	 	TIME: Monday, March 23, 5:49 p.m..</strong></p><p>I appreciate the diligence, professionalism, and compassion shown by Chief Longo and his officers in thoroughly investigating this situation. We know that sexual violence is a real problem on college campuses and we have not wavered in our commitment to addressing it. I have been proud to chair Governor McAuliffe's Task Force on Combating Campus Sexual Violence, and in just a few weeks, we will present him with recommendations to improve the way we prevent and respond to reports of sexual violence on Virginia campuses. This issue will not, and should not, be pushed back into the shadows.</p>
+
+</div>
+
+<div class="span5"><p id="photo">
+	<img src="https://s3.amazonaws.com/media.cav/11229_nstsullytbynumf.jpg" alt="Teresa Sullivan" /></p><p id="content"></p><p class="bigtext"></p><p><strong>
+	FROM: University President Teresa Sullivan</p><p>
+	 	TIME: Monday, March 23, 3:44 p.m.</strong></p><p>
+	 	On behalf of the University of Virginia, I would like to express my sincere appreciation to Chief Timothy Longo and the Charlottesville Police Department for their thorough investigation into the allegations described in the November 2014 article in Rolling Stone magazine. I would also like to thank the individuals who cooperated with the police investigation. The investigation confirms what federal privacy law prohibited the University from sharing last fall: that the University provided support and care to a student in need, including assistance in reporting potential criminal conduct to law enforcement. Chief Longo’s report underscores what I have known since well before the publication of the Rolling Stone article: that we at the University are committed to ensuring the health and safety of all of our students.</p><p>
+<a href="#" id="example1-show" class="showLink" onclick="showHide('example1');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example1" class="more">
+	<p>We cannot fulfill our mission as an institution of higher learning without providing for the welfare of our students and our community. There is important work ahead as the University continues to implement substantive reforms to improve its culture, prevent violence and respond to incidents of violence when they occur. We will continue our collaborative partnership with the Charlottesville Police Department, united by our shared commitment to fostering a culture of respect while ensuring the safety and well-being of all members of our community.</p>
+ 
+<p><a href="#" id="example1-hide" class="hideLink" onclick="showHide('example1');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
